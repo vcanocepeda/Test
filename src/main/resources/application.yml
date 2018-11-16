@@ -1,0 +1,22 @@
+## Test application configuration
+tarjetas:
+  getDatos: http://localhost:8085/v1/tarjeta
+
+cliente:
+  getDatos: http://localhost:8087/v1/cliente
+      
+zendesk:
+  ticket: foo
+  token: 2076a01757c77f6c2101c2d8e093f43efd71fa5d
+  url: http://localhost:8088/zendesk
+  error:
+    destinatario: ejemplo@mail.com
+    mail:
+      funcionalidad:
+  
+
+
+
+
+
+
