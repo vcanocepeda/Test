@@ -68,7 +68,7 @@ public class ZendeskService {
 
     /** The portalclientes web ejb remote. */
     @Autowired
-    // @Qualifier("portalclientesWebEJB")
+    @Qualifier("portalclientesWebEJB")
     private PortalClientesWebEJBRemote portalclientesWebEJBRemote;
 
     /** The rest template. */
