@@ -147,7 +147,7 @@ public class ZendeskService {
                             append(detallePolizaResponse.getTomador().getApellido2());
 
                 idCliente = detallePolizaResponse.getTomador().getIdentificador();
-                datosServicio.append("Datos recuperados del servicio de tarjeta:").append(ESCAPED_LINE_SEPARATOR).append(mapper.writeValueAsString(detallePolizaResponse));
+                datosServicio.append("Datos recuperados del servicio del portal clientes:").append(ESCAPED_LINE_SEPARATOR).append(mapper.writeValueAsString(detallePolizaResponse));
             }catch(Exception e)
             {
                 LOG.error("Error al obtener los datos de la poliza", e);
